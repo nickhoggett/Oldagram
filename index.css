@@ -1,0 +1,56 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.main-container {
+    width: 375px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    padding: 10px 5px 30px 5px; 
+    border-bottom: #adadad solid 1px;
+}
+
+#user-avatar {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+#avatar {
+    width: 40px;
+    border-radius: 50%;
+}
+
+#user-info {
+    display: flex;
+    padding: 20px;
+}
+
+#user-text-desc {
+    line-height: 5px;
+    padding: 0 15px;
+    align-items: center;
+}
+
+
+article img {
+    width: 100%;
+}
+
+.social-img {
+    width: 30px;
+    padding: 15px 5px
+}
+
+
+/*UTILITIES*/
+
+.bold {
+    font-weight: 900;
+}
